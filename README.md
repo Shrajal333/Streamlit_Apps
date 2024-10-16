@@ -7,3 +7,5 @@ The dataset is loaded, categorical variables are encoded and the numerical varia
 ### RNN for Sentiment Analysis:
 The IMDB movies dataset is loaded with a vocabulary of 50000 words and a simple RNN with max padding of 500 is trained on the dataset with 5 layers using the sigmoid activation function, with EarlyStopping monitoring the validation losses. Further, the neural network is deployed using Streamlit which predicts the sentiment score for the entered customer review.
 
+### Language Translation:
+The language translator, deployed through Streamlit, is using Gemma2-9b model via Chat Groq. The Chat Prompt template takes in user text and translates it into the desired language.
