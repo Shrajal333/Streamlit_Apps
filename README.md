@@ -11,3 +11,9 @@ The language translator, deployed through Streamlit, is using Gemma2-9b model vi
 
 ### 4. PDF Retrieval-Augmented Generation:
 The streamlit application loads in desired PDFs, creates vector embeddings via Gemma2-9b model and stores the vectors in FAISS database. Results are retrieved based on cosine similarity from the database.
+
+### 5. Coder LLAMA:
+The application uses Code LLAMA at backend to answer user coding questions. It loads a modelfile downloaded locally to call the API using gradio and displays the required code in various languages.
+
+### 6. Text Summarization:
+The text summarizer takes input url from the user, including Youtube and any website. It decodes the information present and outputs a concise summary of the website or Youtube video.
